@@ -1,0 +1,167 @@
+{
+    "comment": "hacer un fichero JSON aislado para cada Tipo de Componente... el texture mapping podría ser local al componente o uno global por todas las texturas\n\t//las imagenes deben estar todas en un solo atlas\n\t",
+    "texture_mapping": {
+        "input-background": {
+            "scale9Grid": [
+                24,
+                23,
+                9,
+                2
+            ]
+        }
+    },
+    "TextFormat": {
+        "lightFontStyles": {
+            "font": "Betha",
+            "size": "16",
+            "color": "0x56beff",
+            "horizontalAlign": "center",
+            "verticalAlign": "center"
+        },
+        "wrongFontStyles": {
+            "font": "Manksa",
+            "size": "24",
+            "color": "0xFF0000",
+            "horizontalAlign": "center",
+            "verticalAlign": "center"
+        }
+    },
+    "components": {
+        "feathers.controls.Label": {
+            "default": {
+                "props": {
+                    "fontStyles": "lightFontStyles"
+                }
+            },
+            "LABEL_WRONG": {
+                "props": {
+                    "fontStyles": "wrongFontStyles"
+                }
+            }
+        },
+        "feathers.controls.TextInput": {
+            "default": {
+                "state": {
+                    "enabled2": {
+                        "type": "Texture",
+                        "texture": {
+                            "value": "input-background",
+                            "mapping": [
+                                "scale9Grid"
+                            ]
+                        }
+                    },
+                    "enabled3": {
+                        "comment": "Si tiene scale9Grid toma precedencia sobre mapping",
+                        "type": "Texture",
+                        "texture": {
+                            "value": "input-background",
+                            "mapping": [],
+                            "scale9Grid": [
+                                10,
+                                10,
+                                2,
+                                9
+                            ]
+                        }
+                    },
+                    "focused2": {
+                        "type": "Color",
+                        "color": {
+                            "value": "0xF0F000"
+                        }
+                    },
+                    "enabled": {
+                        "type": "Texture",
+                        "texture": "input-background",
+                        "scale9Grid": [
+                            24,
+                            23,
+                            9,
+                            2
+                        ],
+                        "mapping": [
+                            "scale9Grid"
+                        ]
+                    },
+                    "disabled": {
+                        "type": "Texture",
+                        "texture": "input-background-disabled"
+                    },
+                    "focused": {
+                         "type": "Texture",
+                        "texture": "input-focused",
+                         "scale9Grid": [
+                            24,
+                            23,
+                            9,
+                            2
+                        ]
+                    },
+                    "error": {
+                        "type": "Color",
+                        "color": "0x0F00F0"
+                    }
+                },
+                "props": {
+                    "paddingBottom": 10,
+                    "paddingLeft": 5,
+                    "paddingRight": 30,
+                    "paddingTop": 5
+                }
+            },
+            "SECOND-STYLE": {
+                "state": {
+                    "enabled": {
+                        "type": "Color",
+                        "color": "0xFF0000"
+                    },
+                    "disabled": {
+                        "type": "Color",
+                        "color": "0x00FF00"
+                    },
+                    "focused": {
+                        "type": "Color",
+                        "color": "0x0000FF"
+                    },
+                    "error": {
+                        "type": "Texture",
+                        "texture": "input-background-error"
+                    }
+                },
+                "props": {
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0
+                }
+            },
+            "THIRD-STYLE": {
+                "state": {
+                    "enabled": {
+                        "type": "Color",
+                        "color": "0x335621"
+                    },
+                    "disabled": {
+                        "type": "Color",
+                        "color": "0x00FF00"
+                    },
+                    "focused": {
+                        "type": "Color",
+                        "color": "0xFa56A0"
+                    },
+                    "error": {
+                        "type": "Texture",
+                        "texture": "input-background-error"
+                    }
+                },
+                "props": {
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0
+                }
+            }
+        }
+    }
+}

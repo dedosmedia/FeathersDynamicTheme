@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:11716a0f5c3ee6efc3ca9e0648dd3328:9e892635f4684a77e71afe57b3a3d28c:2eb66953f63f4e156b49d392f3692ec3$ -->
+<TextureAtlas imagePath="theme.png" width="64" height="128">
+    <SubTexture name="input-background" x="0" y="0" width="57" height="48"/>
+    <SubTexture name="input-focused" x="0" y="48" width="57" height="48"/>
+</TextureAtlas>

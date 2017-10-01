@@ -1,0 +1,30 @@
+{
+    "themes": {
+        "Dynamic1": {
+            "name": "Tema numero 1",
+            "disabled": false,
+           
+            "fonts": [
+                "fonts/Fonts.swf"
+            ]
+        },
+        "Dynamic2": {
+        	"default": true,
+        	"disabled": false,
+            "name": "Tema numero 2",
+            "fonts": [
+                "fonts/Fonts.swf"
+            ],
+            "texture-mapping": {
+                "input-background": {
+                    "scale9Grid": [
+                        24,
+                        23,
+                        9,
+                        2
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DuoThemes/DuoThemes.iml" filepath="$PROJECT_DIR$/DuoThemes/DuoThemes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicTheme/DynamicTheme.iml" filepath="$PROJECT_DIR$/DynamicTheme/DynamicTheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleEmbededTheme/ExampleEmbededTheme.iml" filepath="$PROJECT_DIR$/ExampleEmbededTheme/ExampleEmbededTheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleLoadedTheme/ExampleLoadedTheme.iml" filepath="$PROJECT_DIR$/ExampleLoadedTheme/ExampleLoadedTheme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Feathers/Feathers.iml" filepath="$PROJECT_DIR$/Feathers/Feathers.iml" group="Starling" />
+      <module fileurl="file://$PROJECT_DIR$/FeathersThemes.iml" filepath="$PROJECT_DIR$/FeathersThemes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fonts/Fonts.iml" filepath="$PROJECT_DIR$/Fonts/Fonts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starling/Starling.iml" filepath="$PROJECT_DIR$/Starling/Starling.iml" group="Starling" />
+      <module fileurl="file://$PROJECT_DIR$/StaticTheme/StaticTheme.iml" filepath="$PROJECT_DIR$/StaticTheme/StaticTheme.iml" />
+    </modules>
+  </component>
+</project>
